@@ -3,6 +3,7 @@ import Number_Score
 import Subsequence
 import Search_for_capital_letters
 import Three_words
+import Lefties_have_taken_over_the_world
 
 if __name__ == '__main__':
     Fizz_buzz.Multiplicity_of_a_number()
@@ -10,3 +11,4 @@ if __name__ == '__main__':
     Subsequence.Subsequence()
     Search_for_capital_letters.Capital_letters()
     Three_words.Three_Words()
+    Lefties_have_taken_over_the_world.Change_words()

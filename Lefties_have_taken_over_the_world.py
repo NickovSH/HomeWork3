@@ -4,6 +4,10 @@ def Change_words():
     print('\nExercise 6 - Lefties have taken over the world')
     print('Enter text')
     Text = input()
-    Text = Text.split()
 
+    if 'right' in Text:
+        Text = Text.replace('right', 'left')
 
+    print(Text)
+
+Change_words()
